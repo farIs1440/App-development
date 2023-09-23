@@ -1,0 +1,93 @@
+/* genre.css */
+
+.genre-page {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.genre-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px;
+}
+
+.genre-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.genre-item.pop {
+  background-image: url('../Assets/pop.jpeg');
+  background-size: cover;
+  width: 445px;
+  height: 200px;
+}
+
+.genre-item.rock {
+  background-image: url('../Assets/rock.jpeg');
+  background-size: cover;
+  width: 445px;
+  height: 200px;
+}
+
+.genre-item.hip-hop {
+  background-image: url('../Assets/hiphop.jpeg');
+  background-size: cover;
+  width: 445px;
+  height: 200px;
+}
+
+.genre-item img {
+  max-width: 50%;
+  height: auto;
+}
+
+.genre-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* genre.css */
+
+.genre-page {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.genre-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px;
+}
+
+.genre-item {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Ensure the image doesn't extend outside the box */
+}
+
+.genre-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.genre-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
