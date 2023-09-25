@@ -1,0 +1,63 @@
+/* signup.css */
+body{
+  background-color: white;
+     background-size: cover;
+ }
+ 
+ .signup-container {
+     max-width: 400px;
+     margin: 0 auto;
+     padding: 40px;
+     border-radius: 5px;
+     background-color: #121212;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     color: white;
+     margin-right: 540px;
+     margin-top: 100px;
+   }
+ 
+   
+   
+   .signup-container h2 {
+     font-size: 24px;
+     margin-bottom: 40px;
+     margin-left: 10px;
+   }
+   
+   .form-group {
+     margin-bottom: 20px;
+   }
+   
+   label {
+     display: block;
+     margin-bottom: 8px;
+     font-weight: bold;
+   }
+   
+   input[type="text"],
+   input[type="email"],
+   input[type="password"] {
+     width: 90%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+   }
+ 
+   
+   
+   .buttoncd {
+     font-size: 20px;
+     position: relative;
+     padding: 10px 22px;
+     border-radius: 6px;
+     border: none;
+     color: #fff;
+     cursor: pointer;
+     background-color:#121212 ;
+     transition: all 0.2s ease;
+     margin-left: 10px;
+   }
+   
+   
+   
+   
